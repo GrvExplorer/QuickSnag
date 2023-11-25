@@ -1,87 +1,114 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <script src="https://unpkg.com/@hotwired/stimulus"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" src="../js/main.js"></script>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/main.css" />
     <title>Document</title>
-
-
-
-
-
-<div class="container">
-    <nav class="navbar">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
         <ul class="navbar__list">
-            <li class="navbar__item navbar__item--left">
-                <!-- Left items -->
-            </li>
-            <li class="navbar__item navbar__item--center">
-                <!-- Center items -->
-            </li>
-            <li class="navbar__item navbar__item--right">
-                <iconify-icon class="navbar__icon__code" icon="mingcute:code-line"></iconify-icon>
-                <iconify-icon class="navbar__icon__github" icon="mingcute:github-line"></iconify-icon>
-            </li>
+          <li class="navbar__item navbar__item--left">
+            <!-- Left items -->
+          </li>
+          <li class="navbar__item navbar__item--center">
+            <!-- Center items -->
+          </li>
+          <li class="navbar__item navbar__item--right">
+            <iconify-icon
+              class="navbar__icon__code"
+              icon="mingcute:code-line"
+            ></iconify-icon>
+            <iconify-icon
+              class="navbar__icon__github"
+              icon="mingcute:github-line"
+            ></iconify-icon>
+          </li>
         </ul>
-    </nav>
+      </nav>
 
-    <section data-controller="download" class="hero">
+      <section data-controller="download" class="hero">
         <h1 class="hero__title">QuickSnag</h1>
-        <p class="hero__description">A lightweight privacy respecting video downloader. No ads. No spyware. No google. No BS</p>
+        <p class="hero__description">
+          A lightweight privacy respecting video downloader. No ads. No spyware.
+          No google. No BS
+        </p>
         <div class="input-wrapper">
-            <div>
-                <input id="videoUrl" class="input__hero" type="text" name="url">
-                <button id="downloadButton" class="button__hero">
-                    <iconify-icon class="hero__icon__download" icon="mingcute:download-2-fill"></iconify-icon>
-                </button>
-            </div>
-            
+          <div>
+            <input id="videoUrl" class="input__hero" type="text" name="url" />
+            <button id="downloadButton" class="button__hero">
+              <iconify-icon
+                class="hero__icon__download"
+                icon="mingcute:download-2-fill"
+              ></iconify-icon>
+            </button>
+          </div>
         </div>
-    </section>
-</div>
-
-
+      </section>
+    </div>
 
     <section class="supported-sites">
-        <h2 class="supported-sites__title">Supported Sites</h2>
-        <ul class="supported-sites__list">
-            <li class="supported-sites__item">
-                <iconify-icon class="supported-sites__icon__youtube" icon="bxl:youtube"></iconify-icon>
-            </li>
-            <li class="supported-sites__item">
-                <iconify-icon class="supported-sites__icon__tiktok" icon="bxl:tiktok"></iconify-icon>
-            </li>
-            <li class="supported-sites__item">
-                <iconify-icon class="supported-sites__icon__instagram" icon="bxl:instagram-alt"></iconify-icon>
-            </li>
-            <li class="supported-sites__item">
-                <iconify-icon class="supported-sites__icon__twitter" icon="bxl:twitter"></iconify-icon>
-            </li>
-            <li class="supported-sites__item">
-                <iconify-icon class="supported-sites__icon__facebook" icon="bxl:facebook"></iconify-icon>
-            </li>
-            <li class="supported-sites__item">
-                <iconify-icon class="supported-sites__icon__reddit" icon="bxl:reddit"></iconify-icon>
-            </li>
-            <li class="supported-sites__item">
-                <iconify-icon class="supported-sites__icon__pinterest" icon="bxl:pinterest"></iconify-icon>
-            </li>
-            <li class="supported-sites__item">
-                <iconify-icon icon="bxl:vimeo"></iconify-icon>            
-            </li>
-            <li class="supported-sites__item">
-                <iconify-icon class="supported-sites__icon__twitch" icon="bxl:twitch"></iconify-icon>
-            </li>
-        </ul>
+      <h2 class="supported-sites__title">Supported Sites</h2>
+      <ul class="supported-sites__list">
+        <li class="supported-sites__item">
+          <iconify-icon
+            class="supported-sites__icon__youtube"
+            icon="bxl:youtube"
+          ></iconify-icon>
+        </li>
+        <li class="supported-sites__item">
+          <iconify-icon
+            class="supported-sites__icon__tiktok"
+            icon="bxl:tiktok"
+          ></iconify-icon>
+        </li>
+        <li class="supported-sites__item">
+          <iconify-icon
+            class="supported-sites__icon__instagram"
+            icon="bxl:instagram-alt"
+          ></iconify-icon>
+        </li>
+        <li class="supported-sites__item">
+          <iconify-icon
+            class="supported-sites__icon__twitter"
+            icon="bxl:twitter"
+          ></iconify-icon>
+        </li>
+        <li class="supported-sites__item">
+          <iconify-icon
+            class="supported-sites__icon__facebook"
+            icon="bxl:facebook"
+          ></iconify-icon>
+        </li>
+        <li class="supported-sites__item">
+          <iconify-icon
+            class="supported-sites__icon__reddit"
+            icon="bxl:reddit"
+          ></iconify-icon>
+        </li>
+        <li class="supported-sites__item">
+          <iconify-icon
+            class="supported-sites__icon__pinterest"
+            icon="bxl:pinterest"
+          ></iconify-icon>
+        </li>
+        <li class="supported-sites__item">
+          <iconify-icon icon="bxl:vimeo"></iconify-icon>
+        </li>
+        <li class="supported-sites__item">
+          <iconify-icon
+            class="supported-sites__icon__twitch"
+            icon="bxl:twitch"
+          ></iconify-icon>
+        </li>
+      </ul>
     </section>
-    
-    
-    
-</head>
-<body>
-
-</body>
+  </body>
 </html>
